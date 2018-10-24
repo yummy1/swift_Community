@@ -29,48 +29,53 @@ class HomeAdCollectionViewCell:UICollectionViewCell  {
     }
     override func layoutSubviews() {
         super.layoutSubviews()
-        bannerDemo.frame = CGRect(x: 0, y: 0, width: ScreenWidth, height: ScreenWidth/1.84+StatusBarHeight)
+        self.bannerDemo.frame = CGRect(x: 0, y: 0, width: ScreenWidth, height: ScreenWidth/1.84+StatusBarHeight)
     }
     func setupUI(){
         
+        self.bannerDemo = LLCycleScrollView.llCycleScrollViewWithFrame(CGRect(x: 0, y: 0, width: ScreenWidth, height: ScreenWidth/1.84+StatusBarHeight))
         // 是否自动滚动
-        bannerDemo.autoScroll = true
+        self.bannerDemo.autoScroll = true
         
         // 是否无限循环，此属性修改了就不存在轮播的意义了 😄
-        bannerDemo.infiniteLoop = true
+        self.bannerDemo.infiniteLoop = true
         
         // 滚动间隔时间(默认为2秒)
-        bannerDemo.autoScrollTimeInterval = 3.0
+        self.bannerDemo.autoScrollTimeInterval = 3.0
         
         // 等待数据状态显示的占位图
-        bannerDemo.placeHolderImage = UIImage(named: "thumbImage")
+        self.bannerDemo.placeHolderImage = UIImage(named: "thumbImage")
         
         // 如果没有数据的时候，使用的封面图
-        bannerDemo.coverImage = UIImage(named: "thumbImage")
+        self.bannerDemo.coverImage = UIImage(named: "thumbImage")
         
         // 设置图片显示方式=UIImageView的ContentMode
-        bannerDemo.imageViewContentMode = .scaleToFill
+        self.bannerDemo.imageViewContentMode = .scaleToFill
         
         // 设置滚动方向（ vertical || horizontal ）
-        bannerDemo.scrollDirection = .vertical
+        self.bannerDemo.scrollDirection = .horizontal
         
         // 设置当前PageControl的样式 (.none, .system, .fill, .pill, .snake)
-        bannerDemo.customPageControlStyle = .snake
+        self.bannerDemo.customPageControlStyle = .snake
         
         // 非.system的状态下，设置PageControl的tintColor
-        bannerDemo.customPageControlInActiveTintColor = UIColor.red
+//        self.bannerDemo.customPageControlInActiveTintColor = UIColor.red
         
         // 设置.system系统的UIPageControl当前显示的颜色
-        bannerDemo.pageControlCurrentPageColor = UIColor.white
+//        self.bannerDemo.pageControlCurrentPageColor = UIColor.white
+        
+        self.bannerDemo.pageControlActiveImage = UIImage(named: "home_AD")
+        self.bannerDemo.pageControlInActiveImage = UIImage(named: "home_AD_act")
         
         // 非.system的状态下，设置PageControl的间距(默认为8.0)
-        bannerDemo.customPageControlIndicatorPadding = 8.0
+        self.bannerDemo.customPageControlIndicatorPadding = 8.0
         
         // 设置PageControl的位置 (.left, .right 默认为.center)
-        bannerDemo.pageControlPosition = .center
-        
+        self.bannerDemo.pageControlPosition = .right
+        //
+        self.bannerDemo.pageControlBottom = 40
         // 添加到view
-        self.addSubview(bannerDemo)
+        self.addSubview(self.bannerDemo)
     }
     
 }

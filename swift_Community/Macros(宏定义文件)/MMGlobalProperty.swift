@@ -15,20 +15,20 @@ let ScreenWidth:CGFloat = UIScreen.main.bounds.size.width
 /// 屏幕高度
 let ScreenHeight:CGFloat = UIScreen.main.bounds.size.height
 
-/// iPhone X
-let isX:Bool = (ScreenHeight == CGFloat(812) && ScreenWidth == CGFloat(375))
+/// iPhone X、iPhone Xs、iPhone XR、iPhone Xs MAX
+let isFullScreen:Bool = ((ScreenHeight == CGFloat(812) && ScreenWidth == CGFloat(375)) || (ScreenHeight == CGFloat(896) && ScreenWidth == CGFloat(414)))
 
 /// 导航栏高度
-let NavgationBarHeight:CGFloat = isX ? 88 : 64
+let NavgationBarHeight:CGFloat = isFullScreen ? 88 : 64
 
 /// TabBar高度
-let TabBarHeight:CGFloat = isX ? 83 : 49
+let TabBarHeight:CGFloat = isFullScreen ? 83 : 49
 
 /// iPhone X 顶部刘海高度
 let TopLiuHeight:CGFloat = 30
 
 /// StatusBar高度
-let StatusBarHeight:CGFloat = isX ? 44 : 20
+let StatusBarHeight:CGFloat = isFullScreen ? 44 : 20
 
 // MARK: -- 颜色支持
 let ThemeColor = RGB(25, g: 147, b: 252)

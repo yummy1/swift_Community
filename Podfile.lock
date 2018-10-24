@@ -3,25 +3,27 @@ PODS:
   - AlamofireObjectMapper (5.1.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 3.3)
-  - Cache (5.1.0)
+  - Cache (5.2.0)
   - DaisyNet (0.0.9):
     - Alamofire (>= 4.5.1)
     - Cache (>= 5.0.0)
-  - HandyJSON (4.1.3)
+  - HandyJSON (4.2.0)
   - Kingfisher (4.8.1)
-  - LLCycleScrollView (1.4.9):
+  - LLCycleScrollView (1.5.1):
     - Kingfisher
   - ObjectMapper (3.3.0)
+  - SnapKit (4.0.1)
   - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7.3)
   - AlamofireObjectMapper (~> 5.1.0)
   - DaisyNet
-  - HandyJSON (~> 4.1.1)
+  - HandyJSON (~> 4.2.0)
   - Kingfisher (~> 4.8.1)
   - LLCycleScrollView
   - ObjectMapper (~> 3.3.0)
+  - SnapKit (~> 4.0.0)
   - SwiftyJSON (~> 4.1.0)
 
 SPEC REPOS:
@@ -34,19 +36,21 @@ SPEC REPOS:
     - Kingfisher
     - LLCycleScrollView
     - ObjectMapper
+    - SnapKit
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
-  Cache: 7737c595aae7d94c7c0feca2c887288624e3b07e
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
   DaisyNet: 682c882ade6a4948ea28b255ccba4ec2aad92189
-  HandyJSON: bc81fbeb62d65ae5d5942ed29bc4a8265d18c1e8
+  HandyJSON: 9dfc026c7d7adc1f0f8ba8b181495f0e0763b0f4
   Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
-  LLCycleScrollView: fe4438b01970d0f07f514070e9abad5c3fed2aa6
+  LLCycleScrollView: 52c2e96a92b6d16d8e0fe46b6aedb8a320bc846b
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: 457c6950b1d974cca22a773b3a86b3925e90629e
+PODFILE CHECKSUM: 9bef54294e1ac3c3c157b3c7cbe9c299ca45f8f2
 
 COCOAPODS: 1.5.0

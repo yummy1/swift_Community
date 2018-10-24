@@ -13,8 +13,10 @@ target 'swift_Community' do
   pod 'AlamofireObjectMapper', '~> 5.1.0'
   pod 'ObjectMapper', '~> 3.3.0'
   pod 'DaisyNet'
-  pod 'HandyJSON', '~> 4.1.1'
+  pod 'HandyJSON', '~> 4.2.0'
   pod 'LLCycleScrollView' 
+  pod 'SnapKit', '~> 4.0.0'
+
 
   target 'swift_CommunityTests' do
     inherit! :search_paths

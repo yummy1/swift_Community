@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_10" translatesAutoresizingMaskIntoConstraints="NO" id="EZ3-eg-fU6">
+                    <rect key="frame" x="16" y="15" width="23" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="23" id="6Ib-PG-JRA"/>
+                        <constraint firstAttribute="width" secondItem="EZ3-eg-fU6" secondAttribute="height" multiplier="17:15" id="FSu-ez-XDL"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right" translatesAutoresizingMaskIntoConstraints="NO" id="cjD-dh-bdu">
+                    <rect key="frame" x="292" y="14.5" width="12" height="22"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbw-dh-TTQ">
+                    <rect key="frame" x="49" y="13" width="45" height="24"/>
+                    <attributedString key="attributedText">
+                        <fragment content="News">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.61960784310000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="17" name="PingFangSC-Semibold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtH-LG-Byj">
+                    <rect key="frame" x="246.5" y="16" width="35.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDv-7Q-Dom">
+                    <rect key="frame" x="236" y="0.0" width="84" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="Yvk-sl-fdX"/>
+                    </constraints>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="goR-Ti-mkD">
+                    <rect key="frame" x="0.0" y="49" width="320" height="1"/>
+                    <color key="backgroundColor" white="0.80469680059523807" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="7FV-9a-H91"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cjD-dh-bdu" firstAttribute="leading" secondItem="UtH-LG-Byj" secondAttribute="trailing" constant="10" id="1xq-kp-s1y"/>
+                <constraint firstItem="cjD-dh-bdu" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="22A-fF-PZf"/>
+                <constraint firstItem="UtH-LG-Byj" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="3mh-3K-EEC"/>
+                <constraint firstItem="EZ3-eg-fU6" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="Fsw-Hw-TUA"/>
+                <constraint firstItem="pDv-7Q-Dom" firstAttribute="top" secondItem="VXr-Tz-HHm" secondAttribute="top" id="GE6-co-NVe"/>
+                <constraint firstItem="goR-Ti-mkD" firstAttribute="bottom" secondItem="VXr-Tz-HHm" secondAttribute="bottom" id="Ks6-zG-heI"/>
+                <constraint firstItem="pDv-7Q-Dom" firstAttribute="trailing" secondItem="VXr-Tz-HHm" secondAttribute="trailing" id="Q06-pK-mdS"/>
+                <constraint firstItem="pDv-7Q-Dom" firstAttribute="bottom" secondItem="VXr-Tz-HHm" secondAttribute="bottom" id="Rns-ll-FBr"/>
+                <constraint firstItem="EZ3-eg-fU6" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="16" id="TVV-so-ZM5"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="goR-Ti-mkD" secondAttribute="trailing" id="ZWo-CW-Brj"/>
+                <constraint firstItem="gbw-dh-TTQ" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="cFm-kp-giA"/>
+                <constraint firstItem="gbw-dh-TTQ" firstAttribute="leading" secondItem="EZ3-eg-fU6" secondAttribute="trailing" constant="10" id="q3L-jh-eVY"/>
+                <constraint firstItem="goR-Ti-mkD" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="wAU-Jw-0ps"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="cjD-dh-bdu" secondAttribute="trailing" constant="16" id="zgG-o8-QHJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="home_10" width="17" height="15"/>
+        <image name="right" width="12" height="22"/>
+    </resources>
+</document>

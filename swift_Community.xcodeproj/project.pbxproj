@@ -27,6 +27,15 @@
 		8DF650FC2147B79700A864C8 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF650FB2147B79700A864C8 /* NetworkTool.swift */; };
 		8DF650FE2148B5AB00A864C8 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF650FD2148B5AB00A864C8 /* HomeModel.swift */; };
 		8DF651002148E98700A864C8 /* HomeAdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF650FF2148E98700A864C8 /* HomeAdCollectionViewCell.swift */; };
+		8DF65103214B611300A864C8 /* HomeModuleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF65101214B611300A864C8 /* HomeModuleCollectionViewCell.swift */; };
+		8DF65104214B611300A864C8 /* HomeModuleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF65102214B611300A864C8 /* HomeModuleCollectionViewCell.xib */; };
+		8DF65107214B8DF000A864C8 /* NewsListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF65105214B8DF000A864C8 /* NewsListCollectionViewCell.swift */; };
+		8DF65108214B8DF000A864C8 /* NewsListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF65106214B8DF000A864C8 /* NewsListCollectionViewCell.xib */; };
+		8DF6510B214BAA4B00A864C8 /* NewsListCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF65109214BAA4B00A864C8 /* NewsListCollectionReusableView.swift */; };
+		8DF6510C214BAA4B00A864C8 /* NewsListCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF6510A214BAA4B00A864C8 /* NewsListCollectionReusableView.xib */; };
+		8DF651122150ABFA00A864C8 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF651112150ABFA00A864C8 /* MeViewController.swift */; };
+		8DF651142150AC3B00A864C8 /* MeHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF651132150AC3B00A864C8 /* MeHomeTableViewCell.swift */; };
+		8DF651162150D64F00A864C8 /* MeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF651152150D64F00A864C8 /* MeModel.swift */; };
 		EA060B80829EBD1C474D64B6 /* Pods_swift_CommunityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193F3E9AEC230CC704018BD5 /* Pods_swift_CommunityUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +92,16 @@
 		8DF650FB2147B79700A864C8 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
 		8DF650FD2148B5AB00A864C8 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		8DF650FF2148E98700A864C8 /* HomeAdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAdCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DF65101214B611300A864C8 /* HomeModuleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DF65102214B611300A864C8 /* HomeModuleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeModuleCollectionViewCell.xib; sourceTree = "<group>"; };
+		8DF65105214B8DF000A864C8 /* NewsListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DF65106214B8DF000A864C8 /* NewsListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListCollectionViewCell.xib; sourceTree = "<group>"; };
+		8DF65109214BAA4B00A864C8 /* NewsListCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListCollectionReusableView.swift; sourceTree = "<group>"; };
+		8DF6510A214BAA4B00A864C8 /* NewsListCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListCollectionReusableView.xib; sourceTree = "<group>"; };
+		8DF651112150ABFA00A864C8 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		8DF651132150AC3B00A864C8 /* MeHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeHomeTableViewCell.swift; sourceTree = "<group>"; };
+		8DF651152150D64F00A864C8 /* MeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeModel.swift; sourceTree = "<group>"; };
+		8DF79788216F34FC00AFA7D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C6F4B890FD4989B6A8A1817A /* Pods_swift_CommunityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_CommunityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F5795892E7F21E5AF1AF13 /* Pods-swift_Community.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_Community.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift_Community/Pods-swift_Community.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,6 +243,7 @@
 		8D624758213E36FE005539FA /* Main(主要功能模块) */ = {
 			isa = PBXGroup;
 			children = (
+				8DF6510D2150ABB700A864C8 /* Me */,
 				8D62475D213E4DCF005539FA /* Home */,
 				8D62475A213E37BF005539FA /* Base */,
 			);
@@ -268,6 +288,12 @@
 			isa = PBXGroup;
 			children = (
 				8DF650FF2148E98700A864C8 /* HomeAdCollectionViewCell.swift */,
+				8DF65101214B611300A864C8 /* HomeModuleCollectionViewCell.swift */,
+				8DF65102214B611300A864C8 /* HomeModuleCollectionViewCell.xib */,
+				8DF65105214B8DF000A864C8 /* NewsListCollectionViewCell.swift */,
+				8DF65106214B8DF000A864C8 /* NewsListCollectionViewCell.xib */,
+				8DF65109214BAA4B00A864C8 /* NewsListCollectionReusableView.swift */,
+				8DF6510A214BAA4B00A864C8 /* NewsListCollectionReusableView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,9 +326,44 @@
 			path = 3DES;
 			sourceTree = "<group>";
 		};
+		8DF6510D2150ABB700A864C8 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8DF6510E2150ABD000A864C8 /* Controller */,
+				8DF651102150ABE400A864C8 /* Model */,
+				8DF6510F2150ABD900A864C8 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8DF6510E2150ABD000A864C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DF651112150ABFA00A864C8 /* MeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DF6510F2150ABD900A864C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF651132150AC3B00A864C8 /* MeHomeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DF651102150ABE400A864C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DF651152150D64F00A864C8 /* MeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CA5B8D287FFEA2129874008B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8DF79788216F34FC00AFA7D5 /* CoreGraphics.framework */,
 				4A5E6C0BACB977C1ED1FC142 /* Pods_swift_Community.framework */,
 				C6F4B890FD4989B6A8A1817A /* Pods_swift_CommunityTests.framework */,
 				193F3E9AEC230CC704018BD5 /* Pods_swift_CommunityUITests.framework */,
@@ -421,7 +482,10 @@
 			files = (
 				8D624731213E362A005539FA /* LaunchScreen.storyboard in Resources */,
 				8D62472E213E362A005539FA /* Assets.xcassets in Resources */,
+				8DF65104214B611300A864C8 /* HomeModuleCollectionViewCell.xib in Resources */,
 				8D62472C213E3629005539FA /* Main.storyboard in Resources */,
+				8DF6510C214BAA4B00A864C8 /* NewsListCollectionReusableView.xib in Resources */,
+				8DF65108214B8DF000A864C8 /* NewsListCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +575,7 @@
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -523,6 +588,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,16 +603,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF651122150ABFA00A864C8 /* MeViewController.swift in Sources */,
 				8DF650FC2147B79700A864C8 /* NetworkTool.swift in Sources */,
 				8D624729213E3629005539FA /* ViewController.swift in Sources */,
+				8DF6510B214BAA4B00A864C8 /* NewsListCollectionReusableView.swift in Sources */,
 				8D624764213E524E005539FA /* MMGlobalProperty.swift in Sources */,
 				8D62477B213F6926005539FA /* GTMBase64.m in Sources */,
 				8D624727213E3629005539FA /* AppDelegate.swift in Sources */,
 				8DF651002148E98700A864C8 /* HomeAdCollectionViewCell.swift in Sources */,
+				8DF651142150AC3B00A864C8 /* MeHomeTableViewCell.swift in Sources */,
+				8DF65107214B8DF000A864C8 /* NewsListCollectionViewCell.swift in Sources */,
 				8D62476B213E5613005539FA /* UIIamge+Extension.swift in Sources */,
+				8DF65103214B611300A864C8 /* HomeModuleCollectionViewCell.swift in Sources */,
 				8D62475C213E3804005539FA /* MainTabViewController.swift in Sources */,
 				8D624768213E5422005539FA /* MainNavigationController.swift in Sources */,
 				8DF650FE2148B5AB00A864C8 /* HomeModel.swift in Sources */,
+				8DF651162150D64F00A864C8 /* MeModel.swift in Sources */,
 				8D624762213E4E20005539FA /* HomeViewController.swift in Sources */,
 				8D62477A213F6926005539FA /* JKEncrypt.m in Sources */,
 				8D624766213E5274005539FA /* MMGlobalMethod.swift in Sources */,
