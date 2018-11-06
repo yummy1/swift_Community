@@ -12,7 +12,7 @@ class MainTabViewController: UITabBarController {
     
     let homeVC = HomeViewController();
     let menjinVC = HomeViewController();
-    let discountVC = HomeViewController();
+    let discountVC = DiscountViewController();
     let meVC = MeViewController();
     
     override func viewDidLoad() {
