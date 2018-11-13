@@ -16,7 +16,7 @@ target 'swift_Community' do
   pod 'HandyJSON', '~> 4.2.0'
   pod 'LLCycleScrollView' 
   pod 'SnapKit', '~> 4.0.0'
-
+  pod 'DGElasticPullToRefresh', '~> 1.1'
 
   target 'swift_CommunityTests' do
     inherit! :search_paths

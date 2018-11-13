@@ -22,8 +22,10 @@
 		8D624766213E5274005539FA /* MMGlobalMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D624765213E5274005539FA /* MMGlobalMethod.swift */; };
 		8D624768213E5422005539FA /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D624767213E5422005539FA /* MainNavigationController.swift */; };
 		8D62476B213E5613005539FA /* UIIamge+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62476A213E5613005539FA /* UIIamge+Extension.swift */; };
-		8D62477A213F6926005539FA /* JKEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D624775213F6926005539FA /* JKEncrypt.m */; };
-		8D62477B213F6926005539FA /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D624779213F6926005539FA /* GTMBase64.m */; };
+		8D8BE39A2199257800DBFF76 /* DiscountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BE3992199257800DBFF76 /* DiscountModel.swift */; };
+		8D8BE3CC219A6BF400DBFF76 /* libEDS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8BE3CB219A6BF300DBFF76 /* libEDS.a */; };
+		8D990D7B2192BAE6008959C9 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D990D7A2192BAE6008959C9 /* IntExtension.swift */; };
+		8D990D7D2192C01A008959C9 /* DiscountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D990D7C2192C01A008959C9 /* DiscountHeaderView.swift */; };
 		8DF650FC2147B79700A864C8 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF650FB2147B79700A864C8 /* NetworkTool.swift */; };
 		8DF650FE2148B5AB00A864C8 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF650FD2148B5AB00A864C8 /* HomeModel.swift */; };
 		8DF651002148E98700A864C8 /* HomeAdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF650FF2148E98700A864C8 /* HomeAdCollectionViewCell.swift */; };
@@ -37,7 +39,6 @@
 		8DF651142150AC3B00A864C8 /* MeHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF651132150AC3B00A864C8 /* MeHomeTableViewCell.swift */; };
 		8DF651162150D64F00A864C8 /* MeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF651152150D64F00A864C8 /* MeModel.swift */; };
 		8DF797BB218064E000AFA7D5 /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF797BA218064E000AFA7D5 /* DiscountViewController.swift */; };
-		8DF797BD2180653600AFA7D5 /* DiscountCategoryTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF797BC2180653600AFA7D5 /* DiscountCategoryTableViewHeaderView.swift */; };
 		8DF797C02180655600AFA7D5 /* DiscountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF797BE2180655600AFA7D5 /* DiscountTableViewCell.swift */; };
 		8DF797C12180655600AFA7D5 /* DiscountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF797BF2180655600AFA7D5 /* DiscountTableViewCell.xib */; };
 		EA060B80829EBD1C474D64B6 /* Pods_swift_CommunityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193F3E9AEC230CC704018BD5 /* Pods_swift_CommunityUITests.framework */; };
@@ -88,11 +89,11 @@
 		8D624767213E5422005539FA /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		8D62476A213E5613005539FA /* UIIamge+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIIamge+Extension.swift"; sourceTree = "<group>"; };
 		8D624770213F681A005539FA /* swift_Community-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_Community-Bridging-Header.h"; sourceTree = "<group>"; };
-		8D624775213F6926005539FA /* JKEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKEncrypt.m; sourceTree = "<group>"; };
-		8D624776213F6926005539FA /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		8D624777213F6926005539FA /* JKEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKEncrypt.h; sourceTree = "<group>"; };
-		8D624778213F6926005539FA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		8D624779213F6926005539FA /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		8D8BE3992199257800DBFF76 /* DiscountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountModel.swift; sourceTree = "<group>"; };
+		8D8BE3CB219A6BF300DBFF76 /* libEDS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEDS.a; sourceTree = "<group>"; };
+		8D990D7A2192BAE6008959C9 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		8D990D7C2192C01A008959C9 /* DiscountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountHeaderView.swift; sourceTree = "<group>"; };
 		8DF650FB2147B79700A864C8 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
 		8DF650FD2148B5AB00A864C8 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		8DF650FF2148E98700A864C8 /* HomeAdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAdCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -107,7 +108,6 @@
 		8DF651152150D64F00A864C8 /* MeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeModel.swift; sourceTree = "<group>"; };
 		8DF79788216F34FC00AFA7D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8DF797BA218064E000AFA7D5 /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
-		8DF797BC2180653600AFA7D5 /* DiscountCategoryTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCategoryTableViewHeaderView.swift; sourceTree = "<group>"; };
 		8DF797BE2180655600AFA7D5 /* DiscountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountTableViewCell.swift; sourceTree = "<group>"; };
 		8DF797BF2180655600AFA7D5 /* DiscountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscountTableViewCell.xib; sourceTree = "<group>"; };
 		C6F4B890FD4989B6A8A1817A /* Pods_swift_CommunityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_CommunityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8BE3CC219A6BF400DBFF76 /* libEDS.a in Frameworks */,
 				0C06943F6A86D23AF0546DD5 /* Pods_swift_Community.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				8D62476A213E5613005539FA /* UIIamge+Extension.swift */,
+				8D990D7A2192BAE6008959C9 /* IntExtension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -327,10 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				8D624777213F6926005539FA /* JKEncrypt.h */,
-				8D624775213F6926005539FA /* JKEncrypt.m */,
-				8D624778213F6926005539FA /* GTMDefines.h */,
-				8D624776213F6926005539FA /* GTMBase64.h */,
-				8D624779213F6926005539FA /* GTMBase64.m */,
+				8D8BE3CB219A6BF300DBFF76 /* libEDS.a */,
 			);
 			path = 3DES;
 			sourceTree = "<group>";
@@ -390,6 +389,7 @@
 		8DF797B8218064AD00AFA7D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8D8BE3992199257800DBFF76 /* DiscountModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -397,9 +397,9 @@
 		8DF797B9218064AD00AFA7D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8DF797BC2180653600AFA7D5 /* DiscountCategoryTableViewHeaderView.swift */,
 				8DF797BE2180655600AFA7D5 /* DiscountTableViewCell.swift */,
 				8DF797BF2180655600AFA7D5 /* DiscountTableViewCell.xib */,
+				8D990D7C2192C01A008959C9 /* DiscountHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,6 +615,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/DGElasticPullToRefresh/DGElasticPullToRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/DaisyNet/DaisyNet.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -628,6 +629,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGElasticPullToRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DaisyNet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -649,13 +651,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF651122150ABFA00A864C8 /* MeViewController.swift in Sources */,
+				8D990D7B2192BAE6008959C9 /* IntExtension.swift in Sources */,
 				8DF650FC2147B79700A864C8 /* NetworkTool.swift in Sources */,
 				8DF797C02180655600AFA7D5 /* DiscountTableViewCell.swift in Sources */,
 				8D624729213E3629005539FA /* ViewController.swift in Sources */,
 				8DF6510B214BAA4B00A864C8 /* NewsListCollectionReusableView.swift in Sources */,
 				8D624764213E524E005539FA /* MMGlobalProperty.swift in Sources */,
-				8D62477B213F6926005539FA /* GTMBase64.m in Sources */,
-				8DF797BD2180653600AFA7D5 /* DiscountCategoryTableViewHeaderView.swift in Sources */,
+				8D8BE39A2199257800DBFF76 /* DiscountModel.swift in Sources */,
+				8D990D7D2192C01A008959C9 /* DiscountHeaderView.swift in Sources */,
 				8D624727213E3629005539FA /* AppDelegate.swift in Sources */,
 				8DF651002148E98700A864C8 /* HomeAdCollectionViewCell.swift in Sources */,
 				8DF651142150AC3B00A864C8 /* MeHomeTableViewCell.swift in Sources */,
@@ -668,7 +671,6 @@
 				8DF797BB218064E000AFA7D5 /* DiscountViewController.swift in Sources */,
 				8DF651162150D64F00A864C8 /* MeModel.swift in Sources */,
 				8D624762213E4E20005539FA /* HomeViewController.swift in Sources */,
-				8D62477A213F6926005539FA /* JKEncrypt.m in Sources */,
 				8D624766213E5274005539FA /* MMGlobalMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -853,6 +855,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swift_Community/Utils(其他)/3DES",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lianchuang.swift-Community";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "swift_Community/Utils(其他)/swift_Community-Bridging-Header.h";
@@ -876,6 +882,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swift_Community/Utils(其他)/3DES",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lianchuang.swift-Community";
 				PRODUCT_NAME = "$(TARGET_NAME)";

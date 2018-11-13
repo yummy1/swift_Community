@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "75B700D01AE86431164FF4CFA0AC002B"
-               BlueprintName = "SnapKit"
+               BlueprintIdentifier = "47D07B436D82BB983C8429FF84F919A3"
+               BlueprintName = "DGElasticPullToRefresh"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SnapKit.framework">
+               BuildableName = "DGElasticPullToRefresh.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

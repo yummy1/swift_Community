@@ -42,7 +42,7 @@ public class NetworkTool:NSObject {
     {
         let jk = JKEncrypt.init()
         let str = convertDictionaryToString(dict: params! as [String : AnyObject])
-        print(str)
+        print("00000" + str)
         let DataDic:[String:String] = ["data":jk.doStr(str)]
         return DaisyNet.request(url, method: method, params: DataDic, dynamicParams: dynamicParams, encoding: encoding, headers: headers).cache(cache).responseCacheAndString(completion: { value in
             switch value.result {
@@ -51,7 +51,11 @@ public class NetworkTool:NSObject {
                 let s:String = String.init(data: data as Data, encoding: .utf8)!
                 print("response:\(s)")
                 let response = responseModel.deserialize(from: s)
-                success((response?.data)!,(response?.result)!,(response?.info)!)
+                if (response == nil){
+                    success(NSDictionary.init(),.NetworkRetcodeError,"失败")
+                }else{
+                      success((response?.data)!,(response?.result)!,(response?.info)!)
+                }
                 if value.isCacheData {
                     
                 } else {

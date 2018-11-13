@@ -12,7 +12,7 @@ class NewsListCollectionReusableView: UICollectionReusableView {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+      
     }
     
 }

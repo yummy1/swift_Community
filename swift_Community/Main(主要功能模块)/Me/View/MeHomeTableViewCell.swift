@@ -20,8 +20,7 @@ class MeHomeTableViewCell: UITableViewCell {
         didSet{
 //            self.icon?.kf.setBackgroundImage(with: URL(string: model.headimg!), for: .normal, placeholder: UIImage(named: "me-touxiang"))
             if ((model.headimg?.count)! > 20){
-                let data = NSData(contentsOf: URL(string: model.headimg!)!)
-                self.imageLayer?.contents = UIImage(data: data! as Data)?.cgImage
+                self.icon!.kf.setImage(with: URL(string: model.headimg!), for: .normal, placeholder: UIImage.init(named: "me-touxiang"))
             }
             self.name?.text = model.nickName
             if (model.cname == nil || model.cname?.count == 0) {
@@ -51,24 +50,12 @@ class MeHomeTableViewCell: UITableViewCell {
         self.contentView.addSubview(self.titleLabel!)
         
         self.icon = UIButton.init()
+        self.icon?.setImage(UIImage.init(named: "me-touxiang"), for: .normal)
+        self.icon?.layer.cornerRadius = 35
+        self.icon?.clipsToBounds = true
+        self.icon?.layer.borderColor = RGB(0, g: 266, b: 221).cgColor
+        self.icon?.layer.borderWidth = 2
         self.contentView.addSubview(self.icon!)
-        let sublayer = CALayer.init()
-        sublayer.backgroundColor = UIColor.blue.cgColor
-        sublayer.shadowOffset = CGSize(width: 0, height: 0)
-        sublayer.shadowRadius = 2
-        sublayer.shadowColor = RGB(150, g: 150, b: 150).cgColor
-        sublayer.shadowOpacity = 0.8
-        sublayer.frame = CGRect(x: 0, y: 0, width: 70, height: 70)
-        sublayer.borderColor = RGB(0, g: 226, b: 221).cgColor
-        sublayer.borderWidth = 2.0
-        sublayer.cornerRadius = 35
-        self.icon?.layer.addSublayer(sublayer)
-        self.imageLayer = CALayer.init()
-        self.imageLayer?.frame = sublayer.frame
-        self.imageLayer?.cornerRadius = 35
-        self.imageLayer?.masksToBounds = true
-        self.imageLayer?.contents = UIImage(named: "me-touxiang")?.cgImage
-        sublayer.addSublayer(self.imageLayer!)
         
         self.name = UILabel.init()
         self.name?.textColor = UIColor.white
