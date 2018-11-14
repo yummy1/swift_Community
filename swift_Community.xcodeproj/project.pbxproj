@@ -24,6 +24,7 @@
 		8D62476B213E5613005539FA /* UIIamge+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62476A213E5613005539FA /* UIIamge+Extension.swift */; };
 		8D8BE39A2199257800DBFF76 /* DiscountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BE3992199257800DBFF76 /* DiscountModel.swift */; };
 		8D8BE3CC219A6BF400DBFF76 /* libEDS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8BE3CB219A6BF300DBFF76 /* libEDS.a */; };
+		8D8BE3CF219ABFB100DBFF76 /* DiscountCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BE3CE219ABFB100DBFF76 /* DiscountCategory.swift */; };
 		8D990D7B2192BAE6008959C9 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D990D7A2192BAE6008959C9 /* IntExtension.swift */; };
 		8D990D7D2192C01A008959C9 /* DiscountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D990D7C2192C01A008959C9 /* DiscountHeaderView.swift */; };
 		8DF650FC2147B79700A864C8 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF650FB2147B79700A864C8 /* NetworkTool.swift */; };
@@ -92,6 +93,7 @@
 		8D624777213F6926005539FA /* JKEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKEncrypt.h; sourceTree = "<group>"; };
 		8D8BE3992199257800DBFF76 /* DiscountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountModel.swift; sourceTree = "<group>"; };
 		8D8BE3CB219A6BF300DBFF76 /* libEDS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEDS.a; sourceTree = "<group>"; };
+		8D8BE3CE219ABFB100DBFF76 /* DiscountCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCategory.swift; sourceTree = "<group>"; };
 		8D990D7A2192BAE6008959C9 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		8D990D7C2192C01A008959C9 /* DiscountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountHeaderView.swift; sourceTree = "<group>"; };
 		8DF650FB2147B79700A864C8 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
@@ -400,6 +402,7 @@
 				8DF797BE2180655600AFA7D5 /* DiscountTableViewCell.swift */,
 				8DF797BF2180655600AFA7D5 /* DiscountTableViewCell.xib */,
 				8D990D7C2192C01A008959C9 /* DiscountHeaderView.swift */,
+				8D8BE3CE219ABFB100DBFF76 /* DiscountCategory.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				8DF6510B214BAA4B00A864C8 /* NewsListCollectionReusableView.swift in Sources */,
 				8D624764213E524E005539FA /* MMGlobalProperty.swift in Sources */,
 				8D8BE39A2199257800DBFF76 /* DiscountModel.swift in Sources */,
+				8D8BE3CF219ABFB100DBFF76 /* DiscountCategory.swift in Sources */,
 				8D990D7D2192C01A008959C9 /* DiscountHeaderView.swift in Sources */,
 				8D624727213E3629005539FA /* AppDelegate.swift in Sources */,
 				8DF651002148E98700A864C8 /* HomeAdCollectionViewCell.swift in Sources */,

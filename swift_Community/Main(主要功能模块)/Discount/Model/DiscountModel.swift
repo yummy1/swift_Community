@@ -19,3 +19,8 @@ class DiscountModel: HandyJSON {
     var distance : Int?
     required init() {}
 }
+class CategorysModel: HandyJSON {
+    var cid : String?
+    var cTitle : String?
+    required init() {}
+}

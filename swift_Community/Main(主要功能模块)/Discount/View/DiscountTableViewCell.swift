@@ -25,7 +25,8 @@ class DiscountTableViewCell: UITableViewCell {
     }
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        self.discountNum.layer.cornerRadius = 8
+        self.discountNum.clipsToBounds = true
     }
 
     
