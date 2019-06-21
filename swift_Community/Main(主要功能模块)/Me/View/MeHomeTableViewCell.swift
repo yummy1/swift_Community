@@ -10,12 +10,14 @@ import UIKit
 import SnapKit
 import Kingfisher
 
+typealias headBlock = () -> ()
 class MeHomeTableViewCell: UITableViewCell {
     var titleLabel:UILabel?
     var icon:UIButton?
     var imageLayer:CALayer?
     var name:UILabel?
     var address:UIButton?
+    var headClick : headBlock?
     var model:MeModel! {
         didSet{
 //            self.icon?.kf.setBackgroundImage(with: URL(string: model.headimg!), for: .normal, placeholder: UIImage(named: "me-touxiang"))
@@ -55,6 +57,7 @@ class MeHomeTableViewCell: UITableViewCell {
         self.icon?.clipsToBounds = true
         self.icon?.layer.borderColor = RGB(0, g: 266, b: 221).cgColor
         self.icon?.layer.borderWidth = 2
+        self.icon?.addTarget(self, action: #selector(changeHeadIcon), for: .touchUpInside)
         self.contentView.addSubview(self.icon!)
         
         self.name = UILabel.init()
@@ -89,6 +92,8 @@ class MeHomeTableViewCell: UITableViewCell {
         }
     }
     
-    
+    @objc func changeHeadIcon(){
+        headClick!()
+    }
     
 }

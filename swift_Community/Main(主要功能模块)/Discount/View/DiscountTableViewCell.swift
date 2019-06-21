@@ -10,6 +10,7 @@ import UIKit
 
 class DiscountTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var discount: UILabel!
     @IBOutlet weak var discountNum: UILabel!
     @IBOutlet weak var shopDistance: UILabel!
     @IBOutlet weak var shopName: UILabel!
@@ -25,8 +26,8 @@ class DiscountTableViewCell: UITableViewCell {
     }
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.discountNum.layer.cornerRadius = 8
-        self.discountNum.clipsToBounds = true
+        self.discount.layer.cornerRadius = 3
+        self.discount.clipsToBounds = true
     }
 
     

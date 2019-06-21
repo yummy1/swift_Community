@@ -157,5 +157,437 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Main(&#x4e3b;&#x8981;&#x529f;&#x80fd;&#x6a21;&#x5757;)/Me/Controller/MeViewController.swift"
+            timestampString = "566200431.599377"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "requestUploadHeadimg(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swift_Community.MeViewController.(requestUploadHeadimg in _E9BA78524557474730C089C8893337BE)(image: __C.UIImage) -&gt; ()"
+                  moduleName = "swift_Community"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mm/Desktop/swift_Community/swift_Community/Main(%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97)/Me/Controller/MeViewController.swift"
+                  timestampString = "566200432.0325201"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSDictionary, swift_Community.NetworkRetcode, Swift.String) -&gt; () in swift_Community.MeViewController.(requestUploadHeadimg in _E9BA78524557474730C089C8893337BE)(image: __C.UIImage) -&gt; ()"
+                  moduleName = "swift_Community"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mm/Desktop/swift_Community/swift_Community/Main(%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97)/Me/Controller/MeViewController.swift"
+                  timestampString = "566200432.034942"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "67">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Main(&#x4e3b;&#x8981;&#x529f;&#x80fd;&#x6a21;&#x5757;)/Me/Controller/MeViewController.swift"
+            timestampString = "566200431.599961"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "requestUploadHeadimg(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Main(&#x4e3b;&#x8981;&#x529f;&#x80fd;&#x6a21;&#x5757;)/Me/Controller/MeViewController.swift"
+            timestampString = "566200431.600523"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "requestChangeInfo(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swift_Community.MeViewController.(requestChangeInfo in _E9BA78524557474730C089C8893337BE)(url: Swift.String) -&gt; ()"
+                  moduleName = "swift_Community"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mm/Desktop/swift_Community/swift_Community/Main(%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97)/Me/Controller/MeViewController.swift"
+                  timestampString = "566200432.060335"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSDictionary, swift_Community.NetworkRetcode, Swift.String) -&gt; () in swift_Community.MeViewController.(requestChangeInfo in _E9BA78524557474730C089C8893337BE)(url: Swift.String) -&gt; ()"
+                  moduleName = "swift_Community"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mm/Desktop/swift_Community/swift_Community/Main(%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97)/Me/Controller/MeViewController.swift"
+                  timestampString = "566200432.063159"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Main(&#x4e3b;&#x8981;&#x529f;&#x80fd;&#x6a21;&#x5757;)/Me/Controller/MeViewController.swift"
+            timestampString = "566200431.601073"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "requestChangeInfo(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Main(&#x4e3b;&#x8981;&#x529f;&#x80fd;&#x6a21;&#x5757;)/Me/Controller/MeViewController.swift"
+            timestampString = "566200431.60159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "requestUploadHeadimg(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.6022069"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.602345"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.6024669"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.602579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in static swift_Community.NetworkTool.upLoadImages(to: Swift.String, params: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, name: Swift.String, datas: Swift.Array&lt;Foundation.Data&gt;, method: Alamofire.HTTPMethod, success: (__C.NSDictionary, swift_Community.NetworkRetcode, Swift.String) -&gt; (), failure: (Swift.Error) -&gt; (), progressHandle: Swift.Optional&lt;(Swift.Double) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "swift_Community"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mm/Desktop/swift_Community/swift_Community/Networks(%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82%E6%8E%A5%E5%8F%A3)/NetworkTool.swift"
+                  timestampString = "566200432.094571"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "133">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in static swift_Community.NetworkTool.upLoadImages(to: Swift.String, params: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, name: Swift.String, datas: Swift.Array&lt;Foundation.Data&gt;, method: Alamofire.HTTPMethod, success: (__C.NSDictionary, swift_Community.NetworkRetcode, Swift.String) -&gt; (), failure: (Swift.Error) -&gt; (), progressHandle: Swift.Optional&lt;(Swift.Double) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "swift_Community"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mm/Desktop/swift_Community/swift_Community/Networks(%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82%E6%8E%A5%E5%8F%A3)/NetworkTool.swift"
+                  timestampString = "566200432.0967129"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.602681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.602774"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in static swift_Community.NetworkTool.upLoadImages(to: Swift.String, params: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, name: Swift.String, datas: Swift.Array&lt;Foundation.Data&gt;, method: Alamofire.HTTPMethod, success: (__C.NSDictionary, swift_Community.NetworkRetcode, Swift.String) -&gt; (), failure: (Swift.Error) -&gt; (), progressHandle: Swift.Optional&lt;(Swift.Double) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "swift_Community"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mm/Desktop/swift_Community/swift_Community/Networks(%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82%E6%8E%A5%E5%8F%A3)/NetworkTool.swift"
+                  timestampString = "566200432.106986"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "219">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in static swift_Community.NetworkTool.upLoadImages(to: Swift.String, params: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, name: Swift.String, datas: Swift.Array&lt;Foundation.Data&gt;, method: Alamofire.HTTPMethod, success: (__C.NSDictionary, swift_Community.NetworkRetcode, Swift.String) -&gt; (), failure: (Swift.Error) -&gt; (), progressHandle: Swift.Optional&lt;(Swift.Double) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "swift_Community"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mm/Desktop/swift_Community/swift_Community/Networks(%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82%E6%8E%A5%E5%8F%A3)/NetworkTool.swift"
+                  timestampString = "566200432.109176"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.602868"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.602954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.60304"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.603135"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Networks(&#x7f51;&#x7edc;&#x8bf7;&#x6c42;&#x63a5;&#x53e3;)/NetworkTool.swift"
+            timestampString = "566200431.6032079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "upLoadImages(to:params:name:datas:method:success:failure:progressHandle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Main(&#x4e3b;&#x8981;&#x529f;&#x80fd;&#x6a21;&#x5757;)/Me/Controller/MeViewController.swift"
+            timestampString = "566200431.603361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "imagePickerControllerDidCancel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Main(&#x4e3b;&#x8981;&#x529f;&#x80fd;&#x6a21;&#x5757;)/Me/Controller/MeViewController.swift"
+            timestampString = "566200431.6039619"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "requestUploadHeadimg(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_Community/Main(&#x4e3b;&#x8981;&#x529f;&#x80fd;&#x6a21;&#x5757;)/Me/Controller/MeViewController.swift"
+            timestampString = "566200431.604333"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

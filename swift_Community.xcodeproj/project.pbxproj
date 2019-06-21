@@ -25,6 +25,9 @@
 		8D8BE39A2199257800DBFF76 /* DiscountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BE3992199257800DBFF76 /* DiscountModel.swift */; };
 		8D8BE3CC219A6BF400DBFF76 /* libEDS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8BE3CB219A6BF300DBFF76 /* libEDS.a */; };
 		8D8BE3CF219ABFB100DBFF76 /* DiscountCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BE3CE219ABFB100DBFF76 /* DiscountCategory.swift */; };
+		8D8BE3D5219D0F4200DBFF76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8BE3D4219D0F4200DBFF76 /* AVFoundation.framework */; };
+		8D8BE3D7219D0F4A00DBFF76 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8BE3D6219D0F4A00DBFF76 /* AssetsLibrary.framework */; };
+		8D8BE3D9219D0F5300DBFF76 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8BE3D8219D0F5300DBFF76 /* Photos.framework */; };
 		8D990D7B2192BAE6008959C9 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D990D7A2192BAE6008959C9 /* IntExtension.swift */; };
 		8D990D7D2192C01A008959C9 /* DiscountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D990D7C2192C01A008959C9 /* DiscountHeaderView.swift */; };
 		8DF650FC2147B79700A864C8 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF650FB2147B79700A864C8 /* NetworkTool.swift */; };
@@ -94,6 +97,9 @@
 		8D8BE3992199257800DBFF76 /* DiscountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountModel.swift; sourceTree = "<group>"; };
 		8D8BE3CB219A6BF300DBFF76 /* libEDS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEDS.a; sourceTree = "<group>"; };
 		8D8BE3CE219ABFB100DBFF76 /* DiscountCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCategory.swift; sourceTree = "<group>"; };
+		8D8BE3D4219D0F4200DBFF76 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8D8BE3D6219D0F4A00DBFF76 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8D8BE3D8219D0F5300DBFF76 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		8D990D7A2192BAE6008959C9 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		8D990D7C2192C01A008959C9 /* DiscountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountHeaderView.swift; sourceTree = "<group>"; };
 		8DF650FB2147B79700A864C8 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8BE3D9219D0F5300DBFF76 /* Photos.framework in Frameworks */,
+				8D8BE3D7219D0F4A00DBFF76 /* AssetsLibrary.framework in Frameworks */,
+				8D8BE3D5219D0F4200DBFF76 /* AVFoundation.framework in Frameworks */,
 				8D8BE3CC219A6BF400DBFF76 /* libEDS.a in Frameworks */,
 				0C06943F6A86D23AF0546DD5 /* Pods_swift_Community.framework in Frameworks */,
 			);
@@ -254,6 +263,7 @@
 		8D624758213E36FE005539FA /* Main(主要功能模块) */ = {
 			isa = PBXGroup;
 			children = (
+				8D8BE3D0219BFF5400DBFF76 /* Door */,
 				8DF797B6218064AD00AFA7D5 /* Discount */,
 				8DF6510D2150ABB700A864C8 /* Me */,
 				8D62475D213E4DCF005539FA /* Home */,
@@ -336,6 +346,37 @@
 			path = 3DES;
 			sourceTree = "<group>";
 		};
+		8D8BE3D0219BFF5400DBFF76 /* Door */ = {
+			isa = PBXGroup;
+			children = (
+				8D8BE3D1219BFF5400DBFF76 /* Controller */,
+				8D8BE3D2219BFF5400DBFF76 /* Model */,
+				8D8BE3D3219BFF5400DBFF76 /* View */,
+			);
+			path = Door;
+			sourceTree = "<group>";
+		};
+		8D8BE3D1219BFF5400DBFF76 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D8BE3D2219BFF5400DBFF76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D8BE3D3219BFF5400DBFF76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8DF6510D2150ABB700A864C8 /* Me */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +451,9 @@
 		CA5B8D287FFEA2129874008B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D8BE3D8219D0F5300DBFF76 /* Photos.framework */,
+				8D8BE3D6219D0F4A00DBFF76 /* AssetsLibrary.framework */,
+				8D8BE3D4219D0F4200DBFF76 /* AVFoundation.framework */,
 				8DF79788216F34FC00AFA7D5 /* CoreGraphics.framework */,
 				4A5E6C0BACB977C1ED1FC142 /* Pods_swift_Community.framework */,
 				C6F4B890FD4989B6A8A1817A /* Pods_swift_CommunityTests.framework */,

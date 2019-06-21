@@ -84,14 +84,15 @@ public class NetworkTool:NSObject {
         params:[String:String],
         name: String,
         datas: [Data],
-        method: HTTPMethod = .get,
+        method: HTTPMethod = .post,
         success: @escaping NetworkTool_requestSucessHandle,
         failure: @escaping NetworkTool_requestFailedHandle,
         progressHandle: NetworkTool_progressHandle? = nil) {
         
         let headers: HTTPHeaders = [
-            "Accept": "application/json",
             "Content-type": "multipart/form-data"
+//            "Content-type":"application/json;charset=utf-8"
+//            "Content-type":"application/x-www-form- urlencoded;charset=utf-8"
         ]
         Alamofire.upload(multipartFormData: { (mutipartData) in
             let jk = JKEncrypt.init()
@@ -114,19 +115,19 @@ public class NetworkTool:NSObject {
             case .success(let upload, _, _):
                 upload.responseJSON { response in
                     switch response.result {
-                    case .success:
-                        if let value = response.result.value {
-                            let jk = JKEncrypt.init()
-                            let jmstr = String.init(data: value as! Data, encoding: .utf8)
-                            let data:NSData = jk.doDecEncryptStr(jmstr).data(using: .utf8)! as NSData
-                            let s:String = String.init(data: data as Data, encoding: .utf8)!
-                            print("response:\(s)")
-                            let response = responseModel.deserialize(from: s)
-                            success((response?.data)!,(response?.result)!,(response?.info)!)
+                        case .success:
+                            if let value = response.result.value {
+                                let jk = JKEncrypt.init()
+                                let jmstr = String.init(data: value as! Data, encoding: .utf8)
+                                let data:NSData = jk.doDecEncryptStr(jmstr).data(using: .utf8)! as NSData
+                                let s:String = String.init(data: data as Data, encoding: .utf8)!
+                                print("response:\(s)")
+                                let response = responseModel.deserialize(from: s)
+                                success((response?.data)!,(response?.result)!,(response?.info)!)
+                            }
+                        case .failure(let error):
+                            failure(error)
                         }
-                    case .failure(let error):
-                        failure(error)
-                    }
                     }.uploadProgress(closure: { (progress) in
                         if let progressHandle = progressHandle {
                             progressHandle(progress.fractionCompleted)

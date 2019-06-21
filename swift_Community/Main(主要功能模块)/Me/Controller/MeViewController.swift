@@ -8,9 +8,12 @@
 
 import UIKit
 import HandyJSON
+import AVFoundation
+import Photos
+import AssetsLibrary
 
 
-class MeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class MeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
     private var model: MeModel? = nil
     private lazy var datas = { () -> [[[String:String]]] in
         let arr = [[["icon":"me-Profile","title":"Profile"],["icon":"me-Home-Management","title":"HomeManagement"],["icon":"me-Add-Visitor","title":"AddVisitor"]],[["icon":"me-Settings","title":"Settings"],["icon":"me-Feedback","title":"Feedback"],["icon":"me-About-us","title":"About us"]]]
@@ -49,14 +52,52 @@ class MeViewController: UIViewController,UITableViewDelegate,UITableViewDataSour
         ]
         NetworkTool.request(mHttpUser, params: params, cache: true, success: { (data, code, message) in
         if code == .NetworkRetcodeSuccess {
-        print("成功");
-        self.model = MeModel.deserialize(from: data)
-        self.tableView.reloadData()
+            print("成功");
+            self.model = MeModel.deserialize(from: data)
+            self.tableView.reloadData()
         }else{
-        print("失败");
+            print("失败");
         }
         }) { (error) in
     
+        }
+    }
+    private func requestUploadHeadimg(image:UIImage){
+        let data:Data = UIImageJPEGRepresentation(image, 0.1)!
+        let params = [
+            "requestCommand" : "saveFiles"
+        ]
+        NetworkTool.upLoadImages(to: mHttpImage, params: params, name: "headIcon", datas: [data], method: .post, success: { (data, code, message) in
+            if code == .NetworkRetcodeSuccess {
+                print("成功");
+                self.requestChangeInfo(url: (data["url"] as! String))
+            }else{
+                print("失败");
+            }
+        }, failure: { (error) in
+            print(error);
+        }) { (progress) in
+            
+        }
+        
+    }
+    private func requestChangeInfo(url:String){
+        let params = [
+            "requestCommand" : "editName",
+            "uid" : "37",
+            "name" : url,
+            "type" : 2
+            ] as [String : Any]
+        NetworkTool.request(mHttpUser, params: params, cache: true, success: { (data, code, message) in
+            if code == .NetworkRetcodeSuccess {
+                print("成功");
+                self.model?.headimg = url
+                self.tableView.reloadData()
+            }else{
+                print("失败");
+            }
+        }) { (error) in
+            
         }
     }
     //MARK: -- UITableViewDataSource
@@ -75,6 +116,10 @@ class MeViewController: UIViewController,UITableViewDelegate,UITableViewDataSour
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MeHomeTableViewCell.self), for: indexPath) as! MeHomeTableViewCell
             if (self.model != nil){
                 cell.model = self.model!
+            }
+            cell.headClick = {
+                print("头像被点击")
+                self.changeHeadIconAction()
             }
             cell.selectionStyle = .none
             return cell
@@ -106,5 +151,84 @@ class MeViewController: UIViewController,UITableViewDelegate,UITableViewDataSour
         }else{
             return 0.001
         }
+    }
+    //MARK: -- 换头像
+    func changeHeadIconAction() {
+        let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        let album = UIAlertAction(title: "相册", style: .default) { (action) in
+            let authStatus:PHAuthorizationStatus = PHPhotoLibrary.authorizationStatus()
+            if (authStatus == .restricted || authStatus == .denied){
+                let alert = UIAlertController(title: nil, message: nil, preferredStyle: .alert)
+                let set = UIAlertAction(title: "去设置", style: .default) { (action) in
+                    let url:URL = URL(string: UIApplicationOpenSettingsURLString)!
+                    if #available(iOS 10, *) {
+                        UIApplication.shared.open(url, options: [:],
+                                                  completionHandler:nil)
+                    } else {
+                        UIApplication.shared.openURL(url)
+                    }
+                }
+                let cancel = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+                alert.addAction(set)
+                alert.addAction(cancel)
+                self.present(alertController, animated: true, completion: nil)
+            }else{
+                let sourceType:UIImagePickerControllerSourceType = .photoLibrary
+                let picker:UIImagePickerController = UIImagePickerController.init()
+                picker.delegate = self as UIImagePickerControllerDelegate & UINavigationControllerDelegate
+                picker.allowsEditing = true
+                picker.sourceType = sourceType
+                self.present(picker, animated: true, completion: nil)
+            }
+        }
+        let camera = UIAlertAction(title: "相机", style: .default) { (action) in
+            let authStatus:AVAuthorizationStatus = AVCaptureDevice .authorizationStatus(for: .video)
+            if (authStatus == .restricted || authStatus == .denied){
+                let alert = UIAlertController(title: nil, message: nil, preferredStyle: .alert)
+                let set = UIAlertAction(title: "去设置", style: .default) { (action) in
+                    let url:URL = URL(string: UIApplicationOpenSettingsURLString)!
+                    if #available(iOS 10, *) {
+                        UIApplication.shared.open(url, options: [:],
+                                                  completionHandler:nil)
+                    } else {
+                        UIApplication.shared.openURL(url)
+                    }
+                }
+                let cancel = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+                alert.addAction(set)
+                alert.addAction(cancel)
+                self.present(alertController, animated: true, completion: nil)
+            }else{
+                let sourceType:UIImagePickerControllerSourceType = .camera
+                if(UIImagePickerController.isSourceTypeAvailable(.camera)){
+                    let picker:UIImagePickerController = UIImagePickerController.init()
+                    picker.delegate = self as UIImagePickerControllerDelegate & UINavigationControllerDelegate
+                    picker.allowsEditing = true
+                    picker.sourceType = sourceType
+                    self.present(picker, animated: true, completion: nil)
+                }else{
+                    print("模拟器中无法打开照相机,请在真机中使用")
+                }
+            }
+        }
+        let cancel = UIAlertAction(title: "取消", style: .cancel) { (action) in
+            
+        }
+        alertController.addAction(album)
+        alertController.addAction(camera)
+        alertController.addAction(cancel)
+        self.present(alertController, animated: true, completion: nil)
+    }
+    //MARK: -- imagePickerControllerDelegate
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        let type:String = info[UIImagePickerControllerMediaType] as! String
+        if(type == "public.image"){
+            let image:UIImage = info[UIImagePickerControllerEditedImage] as! UIImage
+            self.requestUploadHeadimg(image: image)
+        }
+        self.dismiss(animated: true, completion: nil);
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
     }
 }

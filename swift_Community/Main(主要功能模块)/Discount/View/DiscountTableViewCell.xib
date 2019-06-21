@@ -72,6 +72,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="discount" destination="OyJ-uM-erW" id="ek0-M8-7hS"/>
                 <outlet property="discountNum" destination="fgd-He-Zxw" id="bs9-KA-9En"/>
                 <outlet property="icon" destination="C1b-Gp-bjh" id="poO-Tq-uJu"/>
                 <outlet property="shopDistance" destination="lfh-Pd-YPB" id="KK7-jV-LmP"/>
